@@ -1,23 +1,20 @@
 # SimpleRuleProcessor
 
-Description:
-============
+# Description   
 SimpleRuleProcessor is simple rule execution util which can:
 1. Execute rule based on the priority.
 2. Uses variable name for the input condition and output values.
 3. One rule can be chained to another such that output value of one rule can be used as part of input value of another rule and hence forth.
 
 
-Environment:
-============
+# Environment  
 1. Uses Maven for build and dependency management.
 2. Compile and tested using Java 1.8
 3. Uses Junit for unit tests
 4. Uses JSON format for rules to be fed
 
 
-Usage:
-=======
+# Usage 
 
 1. To compile, test and create jar run:
 mvn clean; mvn compile; mvn package
