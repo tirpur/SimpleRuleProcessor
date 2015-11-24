@@ -16,7 +16,7 @@ Environment:
 4. Uses JSON format for rules to be fed
 
 
-Usages:
+Usage:
 =======
 
 1. To compile, test and create jar run:
@@ -51,6 +51,7 @@ So here the condition input value of the first rule has to be keyed-in as trigge
 Snapshot of this run is as below:
 
 shri@shri-lappy:~/MyRuleProcessor$ java -jar /home/shri/MyRuleProcessor/target/RuleProcessor-jar-with-dependencies.jar 
+
 Enter trigger input name: 
 input_value
 Enter trigger input value: 
@@ -62,7 +63,6 @@ IF input_value < 10
         SET output_value TO "Hello"
 ELSE
         SET output_value TO “SORRY"
-Putting: output_value <-> "Hello"
 
 Final output: output_value SET TO "Hello"
 
@@ -73,11 +73,8 @@ IF output_value == "SORRY"
     SET output_value1 TO "NO THANKS"
 ELSE
     SET output_value1 TO "THANKS"
-Putting: output_value <-> "Hello"
-Putting: output_value1 <-> "THANKS"
 
 Final output: output_value1 SET TO "THANKS"
 
 Enter priority of the rule:
 ^Cshri@shri-lappy:~/MyRuleProcessor$ 
-

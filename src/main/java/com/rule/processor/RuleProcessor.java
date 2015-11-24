@@ -34,7 +34,6 @@ public class RuleProcessor {
         for(Rule rule:rules) {
             try {
                 Output out = rule.execute();
-                System.out.println("Putting: "+out.outputName+" <-> "+out.outputValue);
                 //store the output name and its value to be referenced in next rule.
                 outputMap.put(out.outputName,out.outputValue);
 //                outList.add(out);
