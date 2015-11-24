@@ -9,7 +9,7 @@ SimpleRuleProcessor is simple rule execution util which can:
 
 # Environment  
 1. Uses Maven for build and dependency management.
-2. Compile and tested using Java 1.8
+2. Compile and tested using Java 1.8, 1,7
 3. Uses Junit for unit tests
 4. Uses JSON format for rules to be fed
 
